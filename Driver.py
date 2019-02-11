@@ -1,4 +1,4 @@
-from selenium import webdriver as wd
+from selenium import webdriver
 import os
 
 
@@ -10,6 +10,6 @@ class Driver(object):
         self.url = url
 
     def driver(self, db=DRIVER_BIN):
-        browser = self.Chrome(executable_path=db)
+        browser = webdriver.Chrome(executable_path=db)
         browser.get(self.url)
         return browser
