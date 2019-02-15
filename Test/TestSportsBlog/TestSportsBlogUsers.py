@@ -5,7 +5,7 @@ from Strings.MainPageStrings import MainPageStrings
 
 class TestSportsUser(SBTEST):
 
-    def test_login_pages(self):
+    def test_login_page(self):
         wd = self.get_driver()
         username = 'admin'
         password = 'Test@1234'
