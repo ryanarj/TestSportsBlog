@@ -6,3 +6,4 @@ class MainPageStrings(object):
     nba = '/nba'
     mlb = '/nfl'
     nfl = '/mlb'
+    url_f = 'http://127.0.0.1:8000{}'

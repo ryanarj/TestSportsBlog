@@ -1,6 +1,7 @@
 from time import sleep
 from PageFragments.LoginPage import LoginPage
 from SBTEST import SBTEST
+import Driver
 
 
 class LoginPageAction(SBTEST):
