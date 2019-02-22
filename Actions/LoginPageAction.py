@@ -1,26 +1,28 @@
 from time import sleep
+
 from PageFragments.LoginPage import LoginPage
-from SBTEST import SBTEST
-import Driver
 
 
-class LoginPageAction(SBTEST):
+class LoginPageAction:
 
-    def wait_page_loaded(self, driver, timeout=sleep(10)):
-        assert driver.find_element_by_css_selector(LoginPage().username_text()), \
+    driver = None
+
+    def wait_page_loaded(self, timeout=sleep(10)):
+
+        assert self.driver.find_element_by_css_selector(LoginPage().username_text()), \
             'Username does not text does not exist '
-        assert driver.find_element_by_css_selector(LoginPage().password_text()),\
+        assert self.driver.find_element_by_css_selector(LoginPage().password_text()),\
             'Password does not text does not exist '
-        assert driver.find_element_by_css_selector(LoginPage().submit_btn()),\
+        assert self.driver.find_element_by_css_selector(LoginPage().submit_btn()),\
             'Submit btn does not text does not exist '
 
-    def run(self, driver, username=None, password=None, submit_btn=None, result=None):
-        self.wait_page_loaded(driver)
+    def run(self, username=None, password=None, submit_btn=None, result=None):
+        self.wait_page_loaded(self.driver)
         if username is not None:
-            driver.find_element_by_css_selector(LoginPage().username_text()).send_keys(username)
+            self.driver.find_element_by_css_selector(LoginPage().username_text()).send_keys(username)
 
         if password is not None:
-            driver.find_element_by_css_selector(LoginPage().password_text()).send_keys(password)
+            self.driver.find_element_by_css_selector(LoginPage().password_text()).send_keys(password)
 
         if submit_btn is not None:
-            driver.find_element_by_css_selector(LoginPage().submit_btn()).submit()
+            self.driver.find_element_by_css_selector(LoginPage().submit_btn()).submit()

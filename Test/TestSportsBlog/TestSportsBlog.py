@@ -1,4 +1,4 @@
-from SBTEST import SBTEST
+from Utility.SBTEST import SBTEST
 
 
 class TestSportsBlog(SBTEST):
