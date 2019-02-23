@@ -1,14 +1,15 @@
 import unittest
-from Actions.LoginPageAction import LoginPageAction
 from Utility import Driver
 from Strings.MainPageStrings import MainPageStrings as mainStrings
 from Utility.Actions import Actions
+from Utility.Pages import Pages
 
 
 class SBTEST(unittest.TestCase):
 
     driver = None
     actions = Actions()
+    pages = Pages()
 
     def setUp(self):
         Driver.initialize()
@@ -20,6 +21,7 @@ class SBTEST(unittest.TestCase):
         global driver
         driver = Driver.Instance
         self.actions.driver = driver
+        self.pages.driver = driver
         Driver.Instance.get(url)
 
     def navigate_to(self, page):

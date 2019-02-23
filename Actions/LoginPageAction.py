@@ -17,7 +17,7 @@ class LoginPageAction:
             'Submit btn does not text does not exist '
 
     def run(self, username=None, password=None, submit_btn=None, result=None):
-        self.wait_page_loaded(self.driver)
+        self.wait_page_loaded()
         if username is not None:
             self.driver.find_element_by_css_selector(LoginPage().username_text()).send_keys(username)
 
