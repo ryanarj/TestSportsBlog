@@ -1,11 +1,12 @@
-from selenium.webdriver.common.by import By
+from time import sleep
 
 
 class MainPage:
 
     driver = None
 
-    def wait_for_load(self, timeout=20):
+    def wait_for_load(self):
+        sleep(1)
         assert self.driver.find_element_by_css_selector(self.page_header()), \
             'Header does not exist '
 

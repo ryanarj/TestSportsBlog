@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ad0fb2b-da0f-40bc-ada6-53920454e9f9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Utility/Pages.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Actions/LoginPageAction.py" afterPath="$PROJECT_DIR$/Actions/LoginPageAction.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PageFragments/MainPage.py" afterPath="$PROJECT_DIR$/PageFragments/MainPage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Utility/SBTEST.py" afterPath="$PROJECT_DIR$/Utility/SBTEST.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/TestSportsBlog/TestSportsBlogUsers.py" afterPath="$PROJECT_DIR$/Test/TestSportsBlog/TestSportsBlogUsers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TestSportsBlog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestSportsBlogUsers.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestSportsBlogUsers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test/TestSportsBlog/TestSportsBlogUsers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44680852">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
               <folding>
                 <element signature="e#0#66#0" expanded="true" />
               </folding>
@@ -54,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/PageFragments/MainPage.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -72,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginPageAction.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoginPageAction.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Actions/LoginPageAction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.5531915">
+              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -143,11 +139,11 @@
         <option value="$PROJECT_DIR$/Utility/Navigation.py" />
         <option value="$PROJECT_DIR$/Utility/Actions.py" />
         <option value="$PROJECT_DIR$/Utility/Pages.py" />
-        <option value="$PROJECT_DIR$/Actions/LoginPageAction.py" />
         <option value="$PROJECT_DIR$/Utility/Driver.py" />
         <option value="$PROJECT_DIR$/Utility/SBTEST.py" />
-        <option value="$PROJECT_DIR$/PageFragments/MainPage.py" />
         <option value="$PROJECT_DIR$/Test/TestSportsBlog/TestSportsBlogUsers.py" />
+        <option value="$PROJECT_DIR$/PageFragments/MainPage.py" />
+        <option value="$PROJECT_DIR$/Actions/LoginPageAction.py" />
       </list>
     </option>
   </component>
@@ -972,34 +968,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Utility/Driver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PageFragments/LoginPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Actions/LoginPageAction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Utility/SBTEST.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1018,20 +986,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PageFragments/MainPage.py">
+    <entry file="file://$PROJECT_DIR$/Utility/Driver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PageFragments/LoginPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/TestSportsBlog/TestSportsBlogUsers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44680852">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
           <folding>
             <element signature="e#0#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PageFragments/MainPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Actions/LoginPageAction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5531915">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
