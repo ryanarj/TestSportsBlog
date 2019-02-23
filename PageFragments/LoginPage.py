@@ -1,5 +1,5 @@
 
-class LoginPage(object):
+class LoginPage:
 
     def page_is_loaded(self):
         return ".content-section"
@@ -12,4 +12,7 @@ class LoginPage(object):
 
     def submit_btn(self):
         return ".btn[type='submit']"
+
+    def inforbar_text(self):
+        return "div.alert.alert-block.alert-danger"
 
